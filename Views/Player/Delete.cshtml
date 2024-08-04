@@ -1,0 +1,24 @@
+﻿@model EsportPortal.Models.Player
+
+@{
+    ViewData["Title"] = "Usuń Zawodnika";
+}
+
+<h2>Usuń Zawodnika</h2>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" readonly />
+    </div>
+    <div class="form-group">
+        <label asp-for="Role"></label>
+        <input asp-for="Role" class="form-control" readonly />
+    </div>
+    <div class="form-group">
+        <label asp-for="TeamId"></label>
+        <input asp-for="TeamId" class="form-control" readonly />
+    </div>
+    <button type="submit" class="btn btn-danger">Usuń</button>
+</form>
+<a asp-action="Index">Powrót do listy</a>

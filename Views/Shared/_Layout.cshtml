@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Esport Portal</title>
+    <link rel="stylesheet" href="/css/site.css" />
+</head>
+<body>
+    <header>
+        <h1>Portal E-sportowy</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Strona główna</a></li>
+                <li><a href="/Tournament">Turnieje</a></li>
+                <li><a href="/Team">Drużyny</a></li>
+                <li><a href="/Player">Zawodnicy</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+    <footer>
+        <p class="footer-text">&copy; 2024 - Portal E-sportowy</p>
+    </footer>
+</body>
+</html>

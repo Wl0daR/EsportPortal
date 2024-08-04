@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "esport_portal", "esport_portal.csproj", "{7747D285-291F-410A-8EE0-1B5AACCF5DBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7747D285-291F-410A-8EE0-1B5AACCF5DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7747D285-291F-410A-8EE0-1B5AACCF5DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7747D285-291F-410A-8EE0-1B5AACCF5DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7747D285-291F-410A-8EE0-1B5AACCF5DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C260E9EB-ECB3-4C41-A202-F566337D8C48}
+	EndGlobalSection
+EndGlobal

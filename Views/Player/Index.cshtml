@@ -1,0 +1,14 @@
+﻿@model IEnumerable<EsportPortal.Models.Player>
+
+@{
+    ViewData["Title"] = "Zawodnicy";
+}
+
+<h2>Zawodnicy</h2>
+<ul>
+    @foreach (var player in Model)
+    {
+        <li>@player.Name "@player.Nickname" @player.Surname - @player.Role - @player.Team.Name</li>
+    }
+</ul>
+<a asp-action="Create">Dodaj Zawodnika</a>

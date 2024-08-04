@@ -1,14 +1,15 @@
 ﻿@model IEnumerable<EsportPortal.Models.Team>
 
 @{
-    ViewData["Title"] = "Drużyny";
+    ViewData["Title"] = "Teams";
 }
 
-<h2>Drużyny</h2>
-<ul>
+<h2>Teams</h2>
+<div class="card-container">
     @foreach (var team in Model)
     {
-        <li>@team.Name</li>
+        <a class="card" href="@Url.Action("Details", "Team", new { id = team.Id })">
+            <h3>@team.Name</h3>
+        </a>
     }
-</ul>
-<a asp-action="Create">Dodaj Drużynę</a>
+</div>

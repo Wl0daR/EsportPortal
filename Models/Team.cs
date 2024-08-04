@@ -1,16 +1,15 @@
-﻿using esport_portal.Models;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
 
 namespace EsportPortal.Models
 {
     public class Team
     {
         public int Id { get; set; }
-
-        [Required]
         public string Name { get; set; }
+        public string LogoUrl { get; set; }
 
-        public List<Player> Members { get; set; }
+        public ICollection<Player> Players { get; set; }
+        public ICollection<PlayerHistory> PlayerHistories { get; set; }
+        public ICollection<TeamTournamentHistory> TeamTournamentHistories { get; set; }
     }
 }

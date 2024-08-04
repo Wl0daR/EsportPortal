@@ -1,14 +1,18 @@
-﻿@model IEnumerable<EsportPortal.Models.Player>
-
-@{
-    ViewData["Title"] = "Zawodnicy";
-}
-
-<h2>Zawodnicy</h2>
-<ul>
+﻿<h2>Players</h2>
+<div class="player-container">
     @foreach (var player in Model)
     {
-        <li>@player.Name "@player.Nickname" @player.Surname - @player.Role - @player.Team.Name</li>
+            <a class="player-card" href="@Url.Action("Details", "Player", new { id = player.Id })">
+                <h3>@player.Nickname</h3>
+                <img src = "@player.PhotoUrl" alt="@player.Nickname"/>
+                <p>@player.Name @player.Surname</p>
+                <p>@player.Role</p>
+                <p>@player.Nationality</p>
+                <p>@player.BirthDate</p>
+                <p>@player.FavouriteMap</p>
+            </a>
     }
-</ul>
-<a asp-action="Create">Dodaj Zawodnika</a>
+</div>
+<style>
+
+</style>

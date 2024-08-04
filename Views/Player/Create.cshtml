@@ -1,24 +1,33 @@
-﻿@model EsportPortal.Models.Tournament
+﻿@model EsportPortal.Models.Player
 
 @{
-    ViewData["Title"] = "Dodaj Turniej";
+    ViewData["Title"] = "Create Player";
 }
 
-<h2>Dodaj Turniej</h2>
+<h2>Create Player</h2>
 
 <form asp-action="Create" method="post">
-    <div class="form-group">
+    <div>
         <label asp-for="Name"></label>
-        <input asp-for="Name" class="form-control" />
+        <input asp-for="Name" />
     </div>
-    <div class="form-group">
-        <label asp-for="Date"></label>
-        <input asp-for="Date" class="form-control" />
+    <div>
+        <label asp-for="Nickname"></label>
+        <input asp-for="Nickname" />
     </div>
-    <div class="form-group">
-        <label asp-for="Location"></label>
-        <input asp-for="Location" class="form-control" />
+    <div>
+        <label asp-for="Surname"></label>
+        <input asp-for="Surname" />
     </div>
-    <button type="submit" class="btn btn-primary">Zapisz</button>
+    <div>
+        <label asp-for="Role"></label>
+        <select asp-for="Role">
+            <option value="Entry Fragger">Entry Fragger</option>
+            <option value="AWPer">AWPer</option>
+            <option value="Lurker">Lurker</option>
+            <option value="Support">Support</option>
+            <option value="In-Game Leader">In-Game Leader</option>
+        </select>
+    </div>
+    <button type="submit">Create</button>
 </form>
-<a asp-action="Index">Powrót do listy</a>

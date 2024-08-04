@@ -2,8 +2,8 @@
 using EsportPortal.Models;
 using System.Collections.Generic;
 using System.Net.Http;
-using System.Net.Http.Json;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace EsportPortal.Controllers
 {
@@ -23,7 +23,8 @@ namespace EsportPortal.Controllers
 
             if (response.IsSuccessStatusCode)
             {
-                var teams = await response.Content.ReadFromJsonAsync<IEnumerable<Team>>();
+                var json = await response.Content.ReadAsStringAsync();
+                var teams = JsonConvert.DeserializeObject<List<Team>>(json);
                 return View(teams);
             }
             else
@@ -32,79 +33,29 @@ namespace EsportPortal.Controllers
             }
         }
 
-        public IActionResult Create()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> Create(Team team)
+        public async Task<IActionResult> Details(int id)
         {
             var client = _clientFactory.CreateClient("EsportAPI");
-            var response = await client.PostAsJsonAsync("Teams", team);
 
-            if (response.IsSuccessStatusCode)
+            // Pobieranie drużyny
+            var teamResponse = await client.GetAsync($"Teams/{id}");
+            if (!teamResponse.IsSuccessStatusCode)
             {
-                return RedirectToAction(nameof(Index));
+                return NotFound();
+            }
+            var teamJson = await teamResponse.Content.ReadAsStringAsync();
+            var team = JsonConvert.DeserializeObject<Team>(teamJson);
+
+            // Pobieranie graczy dla drużyny
+            var playersResponse = await client.GetAsync($"Teams/{id}/Players");
+            if (playersResponse.IsSuccessStatusCode)
+            {
+                var playersJson = await playersResponse.Content.ReadAsStringAsync();
+                var players = JsonConvert.DeserializeObject<List<Player>>(playersJson);
+                team.Players = players;
             }
 
             return View(team);
-        }
-
-        public async Task<IActionResult> Edit(int id)
-        {
-            var client = _clientFactory.CreateClient("EsportAPI");
-            var response = await client.GetAsync($"Teams/{id}");
-
-            if (response.IsSuccessStatusCode)
-            {
-                var team = await response.Content.ReadFromJsonAsync<Team>();
-                return View(team);
-            }
-
-            return NotFound();
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> Edit(Team team)
-        {
-            var client = _clientFactory.CreateClient("EsportAPI");
-            var response = await client.PutAsJsonAsync($"Teams/{team.Id}", team);
-
-            if (response.IsSuccessStatusCode)
-            {
-                return RedirectToAction(nameof(Index));
-            }
-
-            return View(team);
-        }
-
-        public async Task<IActionResult> Delete(int id)
-        {
-            var client = _clientFactory.CreateClient("EsportAPI");
-            var response = await client.GetAsync($"Teams/{id}");
-
-            if (response.IsSuccessStatusCode)
-            {
-                var team = await response.Content.ReadFromJsonAsync<Team>();
-                return View(team);
-            }
-
-            return NotFound();
-        }
-
-        [HttpPost, ActionName("Delete")]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var client = _clientFactory.CreateClient("EsportAPI");
-            var response = await client.DeleteAsync($"Teams/{id}");
-
-            if (response.IsSuccessStatusCode)
-            {
-                return RedirectToAction(nameof(Index));
-            }
-
-            return NotFound();
         }
     }
 }

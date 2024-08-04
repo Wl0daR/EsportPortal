@@ -3,26 +3,47 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Esport Portal</title>
-    <link rel="stylesheet" href="/css/site.css" />
+    <title>@ViewData["Title"] - EsportPortal</title>
+    <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
-    <header>
-        <h1>Portal E-sportowy</h1>
-        <nav>
-            <ul>
-                <li><a href="/">Strona główna</a></li>
-                <li><a href="/Tournament">Turnieje</a></li>
-                <li><a href="/Team">Drużyny</a></li>
-                <li><a href="/Player">Zawodnicy</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        @RenderBody()
-    </main>
-    <footer>
-        <p class="footer-text">&copy; 2024 - Portal E-sportowy</p>
-    </footer>
+    <div class="container">
+        <header>
+            <div class="content-wrapper">
+                <div class="logo">
+                    <h1 class="site-title">@Html.ActionLink("EsportPortal", "Index", "Home")</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="@Url.Action("Index", "Team")" class="nav-button">
+                                Teams
+                            </a>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("Index", "Player")" class="nav-button">
+                                Players
+                            </a>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("Index", "Tournament")" class="nav-button">
+                                Tournaments
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main role="main" class="content">
+            @RenderBody()
+        </main>
+        <footer>
+            <div class="content-wrapper">
+                <p>&copy; @DateTime.Now.Year - EsportPortal</p>
+            </div>
+        </footer>
+    </div>
+
+    @RenderSection("Scripts", required: false)
 </body>
 </html>

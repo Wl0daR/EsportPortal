@@ -1,14 +1,17 @@
 ﻿@model IEnumerable<EsportPortal.Models.Tournament>
 
 @{
-    ViewData["Title"] = "Turnieje";
+    ViewData["Title"] = "Tournaments";
 }
 
-<h2>Turnieje</h2>
-<ul>
+<h2>Tournaments</h2>
+<div class="card-container">
     @foreach (var tournament in Model)
     {
-        <li>@tournament.Name - @tournament.Date.ToString("yyyy-MM-dd") - @tournament.Location</li>
+        <a class="card" href="@Url.Action("Details", "Tournament", new { id = tournament.Id })">
+            <h3>@tournament.Name</h3>
+            <p>@tournament.Date.ToString("dd-MM-yyyy")</p>
+            <p>@tournament.Location</p>
+        </a>
     }
-</ul>
-<a asp-action="Create">Dodaj Turniej</a>
+</div>

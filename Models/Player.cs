@@ -1,4 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
 
 namespace EsportPortal.Models
 {
@@ -11,5 +11,12 @@ namespace EsportPortal.Models
         public int? TeamId { get; set; }
         public Team Team { get; set; }
         public string Role { get; set; }
+        public DateTime BirthDate { get; set; }
+        public string Nationality { get; set; }
+        public string FavouriteMap { get; set; }
+        public string PhotoUrl { get; set; }
+
+        public ICollection<PlayerHistory> PlayerHistories { get; set; }
+        public ICollection<TeamTournamentHistory> TeamTournamentHistories { get; set; }
     }
 }

@@ -1,0 +1,53 @@
+﻿@using EsportPortal.Models
+@model PlayerDto
+
+@{
+    ViewData["Title"] = "Player Details";
+}
+
+<div class="player-details">
+    <h2>@Model.Nickname (@Model.Name @Model.Surname)</h2>
+    <div class="player-info">
+        <p><strong>Team:</strong> @Model.Team?.Name</p>
+        <p><strong>Role:</strong> @Model.Role</p>
+        <p><strong>Nationality:</strong> @Model.Nationality</p>
+        <p><strong>Birth Date:</strong> @Model.BirthDate</p>
+        <p><strong>Favourite Map:</strong> @Model.FavouriteMap</p>
+    </div>
+    <a href="@Url.Action("Index", "Player")" class="btn btn-primary">Back to Players</a>
+</div>
+
+<style>
+    .player-details {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .player-info p {
+        margin: 10px 0;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 10px 15px;
+        margin: 20px 0;
+        font-size: 16px;
+        text-align: center;
+        cursor: pointer;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        color: white;
+        border: none;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+</style>

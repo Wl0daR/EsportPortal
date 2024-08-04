@@ -4,7 +4,8 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
-using System.Linq; // Dodaj to, aby używać LINQ
+using System.Linq;
+using Newtonsoft.Json;
 
 namespace EsportPortal.Controllers
 {
@@ -20,30 +21,58 @@ namespace EsportPortal.Controllers
         public async Task<IActionResult> Index()
         {
             var client = _clientFactory.CreateClient("EsportAPI");
-            var response = await client.GetAsync("Players");
+            var response = await client.GetAsync("Player");
 
             if (response.IsSuccessStatusCode)
             {
-                var players = await response.Content.ReadFromJsonAsync<IEnumerable<Player>>();
-                var sortedPlayers = players.OrderBy(p => p.Nickname).ToList(); // Sortowanie po Nickname
+                var jsonString = await response.Content.ReadAsStringAsync();
+                var players = JsonConvert.DeserializeObject<IEnumerable<PlayerDto>>(jsonString);
+                var sortedPlayers = players.OrderBy(p => p.Nickname).ToList();
                 return View(sortedPlayers);
             }
             else
             {
-                return View(new List<Player>());
+                return View(new List<PlayerDto>());
             }
+        }
+
+        public async Task<IActionResult> Details(int id)
+        {
+            var client = _clientFactory.CreateClient("EsportAPI");
+            var response = await client.GetAsync($"Player/{id}");
+
+            if (response.IsSuccessStatusCode)
+            {
+                var jsonString = await response.Content.ReadAsStringAsync();
+                var player = JsonConvert.DeserializeObject<PlayerDto>(jsonString);
+                return View(player);
+            }
+
+            return NotFound();
         }
 
         public IActionResult Create()
         {
-            return View(new Player());
+            return View(new PlayerDto());
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(Player player)
+        public async Task<IActionResult> Create(PlayerDto player, IFormFile photo)
         {
+            if (photo != null && photo.Length > 0)
+            {
+                var filePath = Path.Combine("wwwroot/images", photo.FileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await photo.CopyToAsync(stream);
+                }
+
+                player.PhotoUrl = $"/images/{photo.FileName}";
+            }
+
             var client = _clientFactory.CreateClient("EsportAPI");
-            var response = await client.PostAsJsonAsync("Players", player);
+            var response = await client.PostAsJsonAsync("Player", player);
 
             if (response.IsSuccessStatusCode)
             {
@@ -56,11 +85,12 @@ namespace EsportPortal.Controllers
         public async Task<IActionResult> Edit(int id)
         {
             var client = _clientFactory.CreateClient("EsportAPI");
-            var response = await client.GetAsync($"Players/{id}");
+            var response = await client.GetAsync($"Player/{id}");
 
             if (response.IsSuccessStatusCode)
             {
-                var player = await response.Content.ReadFromJsonAsync<Player>();
+                var jsonString = await response.Content.ReadAsStringAsync();
+                var player = JsonConvert.DeserializeObject<PlayerDto>(jsonString);
                 return View(player);
             }
 
@@ -68,10 +98,22 @@ namespace EsportPortal.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Edit(Player player)
+        public async Task<IActionResult> Edit(PlayerDto player, IFormFile photo)
         {
+            if (photo != null && photo.Length > 0)
+            {
+                var filePath = Path.Combine("wwwroot/images", photo.FileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await photo.CopyToAsync(stream);
+                }
+
+                player.PhotoUrl = $"/images/{photo.FileName}";
+            }
+
             var client = _clientFactory.CreateClient("EsportAPI");
-            var response = await client.PutAsJsonAsync($"Players/{player.Id}", player);
+            var response = await client.PutAsJsonAsync($"Player/{player.Id}", player);
 
             if (response.IsSuccessStatusCode)
             {
@@ -84,11 +126,12 @@ namespace EsportPortal.Controllers
         public async Task<IActionResult> Delete(int id)
         {
             var client = _clientFactory.CreateClient("EsportAPI");
-            var response = await client.GetAsync($"Players/{id}");
+            var response = await client.GetAsync($"Player/{id}");
 
             if (response.IsSuccessStatusCode)
             {
-                var player = await response.Content.ReadFromJsonAsync<Player>();
+                var jsonString = await response.Content.ReadAsStringAsync();
+                var player = JsonConvert.DeserializeObject<PlayerDto>(jsonString);
                 return View(player);
             }
 
@@ -99,7 +142,7 @@ namespace EsportPortal.Controllers
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var client = _clientFactory.CreateClient("EsportAPI");
-            var response = await client.DeleteAsync($"Players/{id}");
+            var response = await client.DeleteAsync($"Player/{id}");
 
             if (response.IsSuccessStatusCode)
             {

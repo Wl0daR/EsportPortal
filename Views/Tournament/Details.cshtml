@@ -1,0 +1,26 @@
+﻿@model EsportPortal.Models.TournamentDetailsDto
+
+@{
+    ViewData["Title"] = "Tournament Details";
+}
+
+<h2>@Model.TournamentName</h2>
+
+<h3>Teams Participating in the Tournament</h3>
+
+<div class="card-container">
+    @if (Model.Teams != null && Model.Teams.Any())
+    {
+        @foreach (var team in Model.Teams)
+        {
+            <a class="card" href="@Url.Action("Details", "Team", new { id = team.Id })">
+                <h3>@team.Name</h3>
+                <img src="@team.LogoUrl" alt="@team.Name" />
+            </a>
+        }
+    }
+    else
+    {
+        <p>No teams are participating in this tournament.</p>
+    }
+</div>

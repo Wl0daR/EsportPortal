@@ -10,6 +10,7 @@
     {
         <a class="card" href="@Url.Action("Details", "Team", new { id = team.Id })">
             <h3>@team.Name</h3>
+            <img src="@team.LogoUrl" alt="@team.Name" />
         </a>
     }
 </div>

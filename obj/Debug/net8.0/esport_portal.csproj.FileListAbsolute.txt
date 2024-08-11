@@ -247,3 +247,8 @@ E:\projects\EsportPortal\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
 E:\projects\EsportPortal\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 E:\projects\EsportPortal\bin\Debug\net8.0\Newtonsoft.Json.dll
 E:\projects\EsportPortal\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Projects\esport_portal\esport_portal\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Projects\esport_portal\esport_portal\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Projects\esport_portal\esport_portal\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Projects\esport_portal\esport_portal\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Projects\esport_portal\esport_portal\obj\Debug\net8.0\esport_portal.sourcelink.json

@@ -12,5 +12,6 @@ namespace EsportPortal.Models
         public int PlayerId { get; set; }
         public Player Player { get; set; }
         public DateTime ParticipationDate { get; set; }
+        public string LogoUrl { get; set; }
     }
 }

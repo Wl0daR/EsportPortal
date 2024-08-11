@@ -1,15 +1,27 @@
-﻿<h2>Players</h2>
+﻿@model IEnumerable<EsportPortal.Models.PlayerDto>
+
+@functions {
+    public int CalculateAge(DateTime birthDate)
+    {
+        var today = DateTime.Today;
+        var age = today.Year - birthDate.Year;
+        if (birthDate.Date > today.AddYears(-age)) age--;
+        return age;
+    }
+}
+
+<h2>Players</h2>
 <div class="player-container">
     @foreach (var player in Model)
     {
             <a class="player-card" href="@Url.Action("Details", "Player", new { id = player.Id })">
                 <h3>@player.Nickname</h3>
                 <img src = "@player.PhotoUrl" alt="@player.Nickname"/>
+                <p>@player.Team.Name</p>
                 <p>@player.Name @player.Surname</p>
-                <p>@player.Role</p>
                 <p>@player.Nationality</p>
-                <p>@player.BirthDate</p>
-                <p>@player.FavouriteMap</p>
+                <p>@player.BirthDate.ToShortDateString() (@CalculateAge(player.BirthDate))</p>
+                <p>@player.Role</p>
             </a>
     }
 </div>

@@ -11,7 +11,7 @@ namespace EsportPortal.Models
         public int? TeamId { get; set; }
         public TeamDto Team { get; set; }
         public string Role { get; set; }
-        public string BirthDate { get; set; }
+        public DateTime BirthDate { get; set; }
         public string Nationality { get; set; }
         public string FavouriteMap { get; set; }
         public string PhotoUrl { get; set; }

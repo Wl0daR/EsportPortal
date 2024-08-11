@@ -4,21 +4,33 @@
     ViewData["Title"] = "Team Details";
 }
 
+@functions {
+    public int CalculateAge(DateTime birthDate)
+    {
+        var today = DateTime.Today;
+        var age = today.Year - birthDate.Year;
+        if (birthDate.Date > today.AddYears(-age)) age--;
+        return age;
+    }
+}
+
 <h2>@Model.Name</h2>
 
 <h3>Players</h3>
 @if (Model.Players != null && Model.Players.Any())
 {
-    <div class="card-container">
+    <div class="player-container">
         @foreach (var player in Model.Players)
         {
-            <div class="card">
-                <a class="player-card" href="@Url.Action("Details", "Player", new { id = player.Id })">
-                <h4>@player.Nickname</h4>
+            <a class="player-card" href="@Url.Action("Details", "Player", new { id = player.Id })">
+                <h3>@player.Nickname</h3>
+                <img src="@player.PhotoUrl" alt="@player.Nickname" />
+                <p>@player.Team.Name</p>
                 <p>@player.Name @player.Surname</p>
+                <p>@player.Nationality</p>
+                <p>@player.BirthDate.ToShortDateString() (@CalculateAge(player.BirthDate))</p>
                 <p>@player.Role</p>
-                </a>
-            </div>
+            </a>
         }
     </div>
 }

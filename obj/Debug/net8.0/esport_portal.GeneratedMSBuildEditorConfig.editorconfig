@@ -9,95 +9,99 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = esport_portal
 build_property.RootNamespace = esport_portal
-build_property.ProjectDir = E:\projects\EsportPortal\
+build_property.ProjectDir = C:\Projects\esport_portal\esport_portal\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\projects\EsportPortal
+build_property.MSBuildProjectDirectory = C:\Projects\esport_portal\esport_portal
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/projects/EsportPortal/Views/Home/Index.cshtml]
+[C:/Projects/esport_portal/esport_portal/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/EsportPortal/Views/Home/Privacy.cshtml]
+[C:/Projects/esport_portal/esport_portal/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/EsportPortal/Views/Player/Create.cshtml]
+[C:/Projects/esport_portal/esport_portal/Views/Player/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/EsportPortal/Views/Player/Delete.cshtml]
+[C:/Projects/esport_portal/esport_portal/Views/Player/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/EsportPortal/Views/Player/Details.cshtml]
+[C:/Projects/esport_portal/esport_portal/Views/Player/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/EsportPortal/Views/Player/Edit.cshtml]
+[C:/Projects/esport_portal/esport_portal/Views/Player/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/EsportPortal/Views/Player/Index.cshtml]
+[C:/Projects/esport_portal/esport_portal/Views/Player/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/EsportPortal/Views/Shared/Error.cshtml]
+[C:/Projects/esport_portal/esport_portal/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/EsportPortal/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Projects/esport_portal/esport_portal/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/EsportPortal/Views/Team/Create.cshtml]
+[C:/Projects/esport_portal/esport_portal/Views/Team/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/EsportPortal/Views/Team/Delete.cshtml]
+[C:/Projects/esport_portal/esport_portal/Views/Team/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/EsportPortal/Views/Team/Details.cshtml]
+[C:/Projects/esport_portal/esport_portal/Views/Team/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/EsportPortal/Views/Team/Edit.cshtml]
+[C:/Projects/esport_portal/esport_portal/Views/Team/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/EsportPortal/Views/Team/Index.cshtml]
+[C:/Projects/esport_portal/esport_portal/Views/Team/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/EsportPortal/Views/Tournament/Create.cshtml]
+[C:/Projects/esport_portal/esport_portal/Views/Tournament/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91cm5hbWVudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/EsportPortal/Views/Tournament/Delete.cshtml]
+[C:/Projects/esport_portal/esport_portal/Views/Tournament/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91cm5hbWVudFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/EsportPortal/Views/Tournament/Edit.cshtml]
+[C:/Projects/esport_portal/esport_portal/Views/Tournament/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91cm5hbWVudFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/esport_portal/esport_portal/Views/Tournament/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91cm5hbWVudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/EsportPortal/Views/Tournament/Index.cshtml]
+[C:/Projects/esport_portal/esport_portal/Views/Tournament/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91cm5hbWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/EsportPortal/Views/_ViewImports.cshtml]
+[C:/Projects/esport_portal/esport_portal/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/EsportPortal/Views/_ViewStart.cshtml]
+[C:/Projects/esport_portal/esport_portal/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/EsportPortal/Views/Shared/_Layout.cshtml]
+[C:/Projects/esport_portal/esport_portal/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-72p35fevqo

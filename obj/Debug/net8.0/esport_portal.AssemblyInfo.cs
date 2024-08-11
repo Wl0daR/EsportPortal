@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("esport_portal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd82845d7881ecc10ee26b387c9386c0a72e499f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6127872ef360d7b38448144fbc7326a4490846ef")]
 [assembly: System.Reflection.AssemblyProductAttribute("esport_portal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("esport_portal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,110 +1,62 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using EsportPortal.Models;
-using System.Collections.Generic;
-using System.Net.Http;
-using System.Net.Http.Json;
+using Microsoft.EntityFrameworkCore;
+using System.Linq;
 using System.Threading.Tasks;
+using EsportPortal.Models;
+using EsportPortal.Data;
 
 namespace EsportPortal.Controllers
 {
-    public class TournamentController : Controller
+    public class TournamentsController : Controller
     {
-        private readonly IHttpClientFactory _clientFactory;
+        private readonly EsportContext _context;
 
-        public TournamentController(IHttpClientFactory clientFactory)
+        public TournamentsController(EsportContext context)
         {
-            _clientFactory = clientFactory;
+            _context = context;
         }
 
+        // Metoda Index zwracająca listę wszystkich turniejów
         public async Task<IActionResult> Index()
         {
-            var client = _clientFactory.CreateClient("EsportAPI");
-            var response = await client.GetAsync("Tournaments");
+            var tournaments = await _context.Tournaments
+                .Select(t => new TournamentDetailsDto
+                {
+                    Id = t.Id,
+                    Name = t.Name,
+                    Date = t.Date,
+                    Location = t.Location
+                })
+                .ToListAsync();
 
-            if (response.IsSuccessStatusCode)
-            {
-                var tournaments = await response.Content.ReadFromJsonAsync<IEnumerable<Tournament>>();
-                return View(tournaments);
-            }
-            else
-            {
-                return View(new List<Tournament>());
-            }
+            return View(tournaments);
         }
 
-        public IActionResult Create()
+        // Metoda Details zwracająca szczegóły turnieju wraz z drużynami
+        public async Task<IActionResult> Details(int id)
         {
-            return View();
-        }
+            var tournament = await _context.Tournaments
+                .Include(t => t.TeamTournamentHistories)
+                    .ThenInclude(tth => tth.Team)
+                .FirstOrDefaultAsync(t => t.Id == id);
 
-        [HttpPost]
-        public async Task<IActionResult> Create(Tournament tournament)
-        {
-            var client = _clientFactory.CreateClient("EsportAPI");
-            var response = await client.PostAsJsonAsync("Tournaments", tournament);
-
-            if (response.IsSuccessStatusCode)
+            if (tournament == null)
             {
-                return RedirectToAction(nameof(Index));
+                return NotFound();
             }
 
-            return View(tournament);
-        }
-
-        public async Task<IActionResult> Edit(int id)
-        {
-            var client = _clientFactory.CreateClient("EsportAPI");
-            var response = await client.GetAsync($"Tournaments/{id}");
-
-            if (response.IsSuccessStatusCode)
+            var tournamentDetails = new TournamentDetailsDto
             {
-                var tournament = await response.Content.ReadFromJsonAsync<Tournament>();
-                return View(tournament);
-            }
+                TournamentName = tournament.Name,
+                Teams = tournament.TeamTournamentHistories.Select(tth => new TeamDto
+                {
+                    Id = tth.Team.Id,
+                    Name = tth.Team.Name,
+                    LogoUrl = tth.Team.LogoUrl // Zakładam, że masz pole LogoUrl w modelu Team
+                }).ToList()
+            };
 
-            return NotFound();
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> Edit(Tournament tournament)
-        {
-            var client = _clientFactory.CreateClient("EsportAPI");
-            var response = await client.PutAsJsonAsync($"Tournaments/{tournament.Id}", tournament);
-
-            if (response.IsSuccessStatusCode)
-            {
-                return RedirectToAction(nameof(Index));
-            }
-
-            return View(tournament);
-        }
-
-        public async Task<IActionResult> Delete(int id)
-        {
-            var client = _clientFactory.CreateClient("EsportAPI");
-            var response = await client.GetAsync($"Tournaments/{id}");
-
-            if (response.IsSuccessStatusCode)
-            {
-                var tournament = await response.Content.ReadFromJsonAsync<Tournament>();
-                return View(tournament);
-            }
-
-            return NotFound();
-        }
-
-        [HttpPost, ActionName("Delete")]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var client = _clientFactory.CreateClient("EsportAPI");
-            var response = await client.DeleteAsync($"Tournaments/{id}");
-
-            if (response.IsSuccessStatusCode)
-            {
-                return RedirectToAction(nameof(Index));
-            }
-
-            return NotFound();
+            return View(tournamentDetails);
         }
     }
 }

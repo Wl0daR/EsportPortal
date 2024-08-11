@@ -1,122 +1,146 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\projects\\EsportPortal\\",
+  "WorkspaceRootPath": "C:\\Projects\\esport_portal\\esport_portal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|e:\\projects\\esportportal\\views\\player\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\player\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|e:\\projects\\esportportal\\views\\team\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\team\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|e:\\projects\\esportportal\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|e:\\projects\\esportportal\\views\\player\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\player\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|e:\\projects\\esportportal\\views\\team\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\team\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|e:\\projects\\esportportal\\views\\team\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\team\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|e:\\projects\\esportportal\\models\\tournament.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:models\\tournament.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|e:\\projects\\esportportal\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|e:\\projects\\esportportal\\views\\player\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\player\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|e:\\projects\\esportportal\\views\\player\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\player\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|e:\\projects\\esportportal\\data\\esportcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:data\\esportcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|e:\\projects\\esportportal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|e:\\projects\\esportportal\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|e:\\projects\\esportportal\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|e:\\projects\\esportportal\\models\\playerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:models\\playerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|e:\\projects\\esportportal\\views\\player\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\player\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|e:\\projects\\esportportal\\models\\teamtournamenthistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:models\\teamtournamenthistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|e:\\projects\\esportportal\\views\\tournament\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\tournament\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|e:\\projects\\esportportal\\views\\team\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\team\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|e:\\projects\\esportportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|e:\\projects\\esportportal\\models\\playerhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:models\\playerhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|e:\\projects\\esportportal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|e:\\projects\\esportportal\\controllers\\tournamentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\controllers\\tournamentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:controllers\\tournamentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|e:\\projects\\esportportal\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\models\\teamtournamenthistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:models\\teamtournamenthistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|e:\\projects\\esportportal\\views\\tournament\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\tournament\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\models\\tournamentdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:models\\tournamentdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|e:\\projects\\esportportal\\views\\tournament\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\tournament\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\models\\tournament.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:models\\tournament.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|e:\\projects\\esportportal\\views\\tournament\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\tournament\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\models\\playerhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:models\\playerhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|e:\\projects\\esportportal\\views\\team\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\views\\tournament\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\tournament\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\views\\team\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\team\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\views\\team\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\team\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|e:\\projects\\esportportal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\views\\tournament\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\tournament\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\views\\player\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\player\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\views\\team\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\team\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\models\\playerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:models\\playerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\views\\player\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\player\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\views\\team\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\team\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\views\\player\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\player\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\views\\player\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\player\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\data\\esportcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:data\\esportcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\views\\player\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\player\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\views\\team\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\team\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\views\\tournament\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\tournament\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\views\\tournament\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\tournament\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|c:\\projects\\esport_portal\\esport_portal\\views\\tournament\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7747D285-291F-410A-8EE0-1B5AACCF5DBE}|esport_portal.csproj|solutionrelative:views\\tournament\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -126,7 +150,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -135,205 +159,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "site.css",
-              "DocumentMoniker": "E:\\projects\\EsportPortal\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "E:\\projects\\EsportPortal\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-04T02:53:27.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\projects\\EsportPortal\\Views\\Player\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Player\\Index.cshtml",
-              "ToolTip": "E:\\projects\\EsportPortal\\Views\\Player\\Index.cshtml",
-              "RelativeToolTip": "Views\\Player\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-04T02:42:55.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\projects\\EsportPortal\\Views\\Player\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Player\\Details.cshtml",
-              "ToolTip": "E:\\projects\\EsportPortal\\Views\\Player\\Details.cshtml",
-              "RelativeToolTip": "Views\\Player\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-04T16:19:17.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\projects\\EsportPortal\\Views\\Player\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Player\\Create.cshtml",
-              "ToolTip": "E:\\projects\\EsportPortal\\Views\\Player\\Create.cshtml",
-              "RelativeToolTip": "Views\\Player\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-04T14:57:58.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\projects\\EsportPortal\\Views\\Player\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Player\\Edit.cshtml",
-              "ToolTip": "E:\\projects\\EsportPortal\\Views\\Player\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Player\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-04T02:43:14.377Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Player.cs",
-              "DocumentMoniker": "E:\\projects\\EsportPortal\\Models\\Player.cs",
-              "RelativeDocumentMoniker": "Models\\Player.cs",
-              "ToolTip": "E:\\projects\\EsportPortal\\Models\\Player.cs",
-              "RelativeToolTip": "Models\\Player.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAsAAAA",
+              "Title": "TournamentController.cs",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Controllers\\TournamentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TournamentController.cs",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Controllers\\TournamentController.cs",
+              "RelativeToolTip": "Controllers\\TournamentController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAUwBcAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T23:33:02.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Tournament.cs",
-              "DocumentMoniker": "E:\\projects\\EsportPortal\\Models\\Tournament.cs",
-              "RelativeDocumentMoniker": "Models\\Tournament.cs",
-              "ToolTip": "E:\\projects\\EsportPortal\\Models\\Tournament.cs",
-              "RelativeToolTip": "Models\\Tournament.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T23:31:21.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Team.cs",
-              "DocumentMoniker": "E:\\projects\\EsportPortal\\Models\\Team.cs",
-              "RelativeDocumentMoniker": "Models\\Team.cs",
-              "ToolTip": "E:\\projects\\EsportPortal\\Models\\Team.cs",
-              "RelativeToolTip": "Models\\Team.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T23:32:24.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PlayerDto.cs",
-              "DocumentMoniker": "E:\\projects\\EsportPortal\\Models\\PlayerDto.cs",
-              "RelativeDocumentMoniker": "Models\\PlayerDto.cs",
-              "ToolTip": "E:\\projects\\EsportPortal\\Models\\PlayerDto.cs",
-              "RelativeToolTip": "Models\\PlayerDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T16:20:30.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\projects\\EsportPortal\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\projects\\EsportPortal\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-03T23:57:52.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "E:\\projects\\EsportPortal\\Views\\Team\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Team\\Delete.cshtml",
-              "ToolTip": "E:\\projects\\EsportPortal\\Views\\Team\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Team\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-04T02:43:59.557Z",
+              "WhenOpened": "2024-08-08T20:28:15.297Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\projects\\EsportPortal\\Views\\Team\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Team\\Details.cshtml",
-              "ToolTip": "E:\\projects\\EsportPortal\\Views\\Team\\Details.cshtml",
-              "RelativeToolTip": "Views\\Team\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-04T13:12:20.005Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\projects\\EsportPortal\\Views\\Team\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Team\\Index.cshtml",
-              "ToolTip": "E:\\projects\\EsportPortal\\Views\\Team\\Index.cshtml",
-              "RelativeToolTip": "Views\\Team\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-04T02:42:23.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EsportContext.cs",
-              "DocumentMoniker": "E:\\projects\\EsportPortal\\Data\\EsportContext.cs",
-              "RelativeDocumentMoniker": "Data\\EsportContext.cs",
-              "ToolTip": "E:\\projects\\EsportPortal\\Data\\EsportContext.cs",
-              "RelativeToolTip": "Data\\EsportContext.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAawBMAAAAgAAAA",
+              "Title": "TournamentDetailsDto.cs",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Models\\TournamentDetailsDto.cs",
+              "RelativeDocumentMoniker": "Models\\TournamentDetailsDto.cs",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Models\\TournamentDetailsDto.cs",
+              "RelativeToolTip": "Models\\TournamentDetailsDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T23:56:03.34Z",
+              "WhenOpened": "2024-08-08T20:19:11.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "TeamTournamentHistory.cs",
-              "DocumentMoniker": "E:\\projects\\EsportPortal\\Models\\TeamTournamentHistory.cs",
-              "RelativeDocumentMoniker": "Models\\TeamTournamentHistory.cs",
-              "ToolTip": "E:\\projects\\EsportPortal\\Models\\TeamTournamentHistory.cs",
-              "RelativeToolTip": "Models\\TeamTournamentHistory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T14:21:49.548Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "PlayerController.cs",
-              "DocumentMoniker": "E:\\projects\\EsportPortal\\Controllers\\PlayerController.cs",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Controllers\\PlayerController.cs",
               "RelativeDocumentMoniker": "Controllers\\PlayerController.cs",
-              "ToolTip": "E:\\projects\\EsportPortal\\Controllers\\PlayerController.cs",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Controllers\\PlayerController.cs",
               "RelativeToolTip": "Controllers\\PlayerController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -342,50 +197,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "E:\\projects\\EsportPortal\\Views\\Player\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Player\\Delete.cshtml",
-              "ToolTip": "E:\\projects\\EsportPortal\\Views\\Player\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Player\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-04T02:43:26.329Z",
+              "DocumentIndex": 1,
+              "Title": "Team.cs",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Models\\Team.cs",
+              "RelativeDocumentMoniker": "Models\\Team.cs",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Models\\Team.cs",
+              "RelativeToolTip": "Models\\Team.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T23:32:24.06Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\projects\\EsportPortal\\Views\\Tournament\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Tournament\\Index.cshtml",
-              "ToolTip": "E:\\projects\\EsportPortal\\Views\\Tournament\\Index.cshtml",
-              "RelativeToolTip": "Views\\Tournament\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-03T23:58:35.693Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\projects\\EsportPortal\\Views\\Team\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Team\\Edit.cshtml",
-              "ToolTip": "E:\\projects\\EsportPortal\\Views\\Team\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Team\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-04T02:43:52.024Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 6,
               "Title": "PlayerHistory.cs",
-              "DocumentMoniker": "E:\\projects\\EsportPortal\\Models\\PlayerHistory.cs",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Models\\PlayerHistory.cs",
               "RelativeDocumentMoniker": "Models\\PlayerHistory.cs",
-              "ToolTip": "E:\\projects\\EsportPortal\\Models\\PlayerHistory.cs",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Models\\PlayerHistory.cs",
               "RelativeToolTip": "Models\\PlayerHistory.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -394,63 +223,354 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\projects\\EsportPortal\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\projects\\EsportPortal\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAADwvxMAAAADAAAA",
+              "DocumentIndex": 5,
+              "Title": "Tournament.cs",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Models\\Tournament.cs",
+              "RelativeDocumentMoniker": "Models\\Tournament.cs",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Models\\Tournament.cs",
+              "RelativeToolTip": "Models\\Tournament.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T23:56:56.366Z",
+              "WhenOpened": "2024-08-03T23:31:21.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "E:\\projects\\EsportPortal\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "E:\\projects\\EsportPortal\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "DocumentIndex": 3,
+              "Title": "TeamTournamentHistory.cs",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Models\\TeamTournamentHistory.cs",
+              "RelativeDocumentMoniker": "Models\\TeamTournamentHistory.cs",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Models\\TeamTournamentHistory.cs",
+              "RelativeToolTip": "Models\\TeamTournamentHistory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T14:21:49.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TeamController.cs",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Controllers\\TeamController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TeamController.cs",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Controllers\\TeamController.cs",
+              "RelativeToolTip": "Controllers\\TeamController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T13:15:11.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Tournament\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Tournament\\Details.cshtml",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Tournament\\Details.cshtml",
+              "RelativeToolTip": "Views\\Tournament\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T20:13:41.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Team\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Team\\Index.cshtml",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Team\\Index.cshtml",
+              "RelativeToolTip": "Views\\Team\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T02:42:23.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:51:18.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Team\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Team\\Create.cshtml",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Team\\Create.cshtml",
+              "RelativeToolTip": "Views\\Team\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T02:43:44.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:51:08.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Tournament\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Tournament\\Index.cshtml",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Tournament\\Index.cshtml",
+              "RelativeToolTip": "Views\\Tournament\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-03T23:58:35.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Player\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Player\\Index.cshtml",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Player\\Index.cshtml",
+              "RelativeToolTip": "Views\\Player\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T02:42:55.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAmwHUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-04T02:53:27.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:51:10.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-03T23:34:30.589Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "TournamentController.cs",
-              "DocumentMoniker": "E:\\projects\\EsportPortal\\Controllers\\TournamentController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TournamentController.cs",
-              "ToolTip": "E:\\projects\\EsportPortal\\Controllers\\TournamentController.cs",
-              "RelativeToolTip": "Controllers\\TournamentController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwA8AAAArAAAA",
+              "DocumentIndex": 17,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "Models\\Player.cs",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Models\\Player.cs",
+              "RelativeToolTip": "Models\\Player.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T23:28:38.586Z",
+              "WhenOpened": "2024-08-03T23:33:02.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-03T23:57:52.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Team\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Team\\Details.cshtml",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Team\\Details.cshtml",
+              "RelativeToolTip": "Views\\Team\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T13:12:20.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T23:56:56.366Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "E:\\projects\\EsportPortal\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "E:\\projects\\EsportPortal\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-03T23:54:48.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PlayerDto.cs",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Models\\PlayerDto.cs",
+              "RelativeDocumentMoniker": "Models\\PlayerDto.cs",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Models\\PlayerDto.cs",
+              "RelativeToolTip": "Models\\PlayerDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T14:28:58.695Z",
+              "WhenOpened": "2024-08-04T16:20:30.438Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Player\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Player\\Edit.cshtml",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Player\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Player\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T02:43:14.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Player\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Player\\Details.cshtml",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Player\\Details.cshtml",
+              "RelativeToolTip": "Views\\Player\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T16:19:17.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Player\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Player\\Create.cshtml",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Player\\Create.cshtml",
+              "RelativeToolTip": "Views\\Player\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T14:57:58.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "E:\\projects\\EsportPortal\\Views\\Tournament\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Team\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Team\\Delete.cshtml",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Team\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Team\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T02:43:59.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EsportContext.cs",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Data\\EsportContext.cs",
+              "RelativeDocumentMoniker": "Data\\EsportContext.cs",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Data\\EsportContext.cs",
+              "RelativeToolTip": "Data\\EsportContext.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAawBMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T23:56:03.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Player\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Player\\Delete.cshtml",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Player\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Player\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T02:43:26.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Team\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Team\\Edit.cshtml",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Team\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Team\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T02:43:52.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T14:28:58.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Tournament\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Tournament\\Delete.cshtml",
-              "ToolTip": "E:\\projects\\EsportPortal\\Views\\Tournament\\Delete.cshtml",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Tournament\\Delete.cshtml",
               "RelativeToolTip": "Views\\Tournament\\Delete.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -458,11 +578,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 33,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\projects\\EsportPortal\\Views\\Tournament\\Create.cshtml",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Tournament\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Tournament\\Create.cshtml",
-              "ToolTip": "E:\\projects\\EsportPortal\\Views\\Tournament\\Create.cshtml",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Tournament\\Create.cshtml",
               "RelativeToolTip": "Views\\Tournament\\Create.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -470,39 +590,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\projects\\EsportPortal\\Views\\Tournament\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Tournament\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Tournament\\Edit.cshtml",
-              "ToolTip": "E:\\projects\\EsportPortal\\Views\\Tournament\\Edit.cshtml",
+              "ToolTip": "C:\\Projects\\esport_portal\\esport_portal\\Views\\Tournament\\Edit.cshtml",
               "RelativeToolTip": "Views\\Tournament\\Edit.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-04T02:31:08.946Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\projects\\EsportPortal\\Views\\Team\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Team\\Create.cshtml",
-              "ToolTip": "E:\\projects\\EsportPortal\\Views\\Team\\Create.cshtml",
-              "RelativeToolTip": "Views\\Team\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-04T02:43:44.984Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\projects\\EsportPortal\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "E:\\projects\\EsportPortal\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-03T23:54:48.978Z"
             }
           ]
         }

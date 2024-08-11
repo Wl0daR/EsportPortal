@@ -10,6 +10,9 @@
     {
         <a class="card" href="@Url.Action("Details", "Tournament", new { id = tournament.Id })">
             <h3>@tournament.Name</h3>
+            <div class="image">
+                <img src="@tournament.LogoUrl" alt="@tournament.Name"/>
+            </div>
             <p>@tournament.Date.ToString("dd-MM-yyyy")</p>
             <p>@tournament.Location</p>
         </a>
